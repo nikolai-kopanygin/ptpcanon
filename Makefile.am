@@ -1,3 +1,5 @@
+AUTOMAKE_OPTIONS = foreign
+
 EXTRA_DIST =
 
 ptpcanonincludedir = $(includedir)/ptpcanon
