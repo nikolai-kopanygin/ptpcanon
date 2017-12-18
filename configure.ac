@@ -1,7 +1,7 @@
 # Process this file with autoconf to produce a configure script.
-AC_INIT([ptpcanon],[0.0.1],[emsi@ipartners.pl])
-AM_INIT_AUTOMAKE(ptpcanon, 0.0.1)
 AC_PREREQ(2.53)
+AC_INIT([ptpcanon],[0.0.3],[nikolai.kopanygin@gmail.com])
+AM_INIT_AUTOMAKE
 AM_CONFIG_HEADER([config.h])
 AC_PROG_LIBTOOL
 
@@ -19,7 +19,7 @@ AC_PROG_LIBTOOL
 
 CANON_VERSION_CURRENT=0
 CANON_VERSION_REVISION=0
-CANON_VERSION_AGE=1
+CANON_VERSION_AGE=3
 CANON_VERSION_INFO=$CANON_VERSION_CURRENT:$CANON_VERSION_REVISION:$CANON_VERSION_AGE
 AC_SUBST(CANON_VERSION_INFO)
 
