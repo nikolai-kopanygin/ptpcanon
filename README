@@ -25,6 +25,12 @@ Canon IXUS i
 Probably other Canon PTP cameras
 
 ======================
+*Prerequisites       *
+======================
+Install GNU Autotools, packages libusb-dev and
+libptp2 from https://sourceforge.net/projects/libptp.
+
+======================
 *How to build        *
 ======================
 
